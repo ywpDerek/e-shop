@@ -1,0 +1,154 @@
+#content{
+	padding-top: 103px;
+}
+#content h3{
+	font-size: 24.5px;
+	color: #7c7c7c;
+	font-weight: 400;
+}
+#content h3 .glyphicon{
+	font-size: 27px;
+	color: #575655;
+	margin-right: 5px;
+	position: relative;
+	top: 5px;
+}
+#content .row{
+	width: 100%;
+	overflow: hidden;
+}
+#content .row-left{
+	width: 243px;
+	height: 459px;
+	float: left;
+	margin-top: 15px;
+}
+#content .row-left li{
+	padding: 0 10px;
+    height: 39px;
+    border-bottom: 1px solid #efefef;
+    line-height: 39px;
+    text-align: left;
+    background: #f4f4f4;
+}
+#content .row-left li a{
+	color: #000000;
+    font-weight: bold;
+}
+#content .row-left li span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	float: right;
+	background-color: #999999;
+	padding: 2px 9px;
+	margin-top: 10px;
+	border-radius: 9px;
+	color: #fff;
+}
+#content .row-left h4{
+	margin-top: 15px;
+	height: 25px;
+    line-height: 25px;
+    color: #7c7c7c;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+}
+#content .row-left .glyphicon{
+	color: #7c7c7c;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#content .row-left p{
+	padding: 15px;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	font-size: 13px;
+    color: #7c7c7c;
+}
+#content .row-left .widget-body{
+	text-align: center;
+	padding: 15px;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+}
+#content .row-left .widget-body span{
+	padding: 2px 4px;
+	display: inline-block;
+	font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #999999;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#content .row-right{
+	margin-left: 5px;
+	float: right;
+	margin-bottom: 15px;
+}
+.row-right .img-first{
+	padding: 15px;
+	border: 1px solid #efefef;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.row-right .img-first .img-img img{
+	width: 214px;
+	height: 142px;
+	display: block;
+}
+.row-right .img-first .img-img{
+	display: block;
+	padding: 3px;
+	border: 1px solid #efefef;
+    background: #fff;
+    float: left;
+}
+.row-right .img-text{
+	float: right;
+	width: 433px;
+	margin-left: 10px;
+}
+.row-right .img-text h5{
+	font-weight: bold;
+	margin: 0 0 5px;
+	color: #4d4d4d;
+	font-size: 14px;
+}
+.row-right .img-first .img-text span{
+	color: #7c7c7c;
+	font-size: 13px;
+}
+.row-right .img-first .img-text a{
+	margin-left: 5px;
+	color: #e5412d;
+}
+.row-right .img-first .img-text p{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+    color: #7c7c7c;
+}
+.row-right .img-first .img-text .read{
+	font-weight: bold;
+	margin: 0;
+}
+.row-right .img-first .img-text .read .glyphicon{
+	color: #e5412d;
+}
+.row-right .item-width .img-img img{
+	width: 329px;
+	height: 219px;
+}
+.row-right .item-width .img-text{
+	width: 330px;
+}
+.row-right .item-right .img-img{
+	float: right;
+}
+.row-right .item-right .img-text{
+	float: left;
+}

@@ -1,0 +1,131 @@
+#contact_gmap{
+	height: 400px;
+	padding-top: 88px;
+}
+#content h3{
+	color: #7c7c7c;
+	line-height: 30px;
+	font-weight: 400;
+	font-size: 24.5px;
+	margin-bottom: 20px;
+}
+#content h3 .glyphicon{
+	color: #575655;
+	font-size: 24px;
+	margin-right: 10px;
+}
+.row-fluid{
+	overflow: hidden;
+}
+.row-fluid .input-first{
+	margin-right: 5px;
+}
+.row-fluid input{
+	width: 259px;
+	height: 20px;
+	padding: 4px 6px;
+	border-color: #efefef;
+    color: #A7A7A7;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+.row-left{
+	float: left;
+}
+.row-fluid .big-input textarea{
+	width: 540px;
+	height: 100px;
+	padding: 4px 6px;
+	border-color: #efefef;
+    color: #A7A7A7;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+.row-left .button{
+	width: 150px;
+	height: 20px;
+	background: #e5412d;
+    border-color: #e5412d;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 7px;
+    line-height: 10px;
+}
+.row-left .button .glyphicon{
+	margin-right: 10px;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.4);
+}
+.row-right{
+	width: 360px;
+	float: right;
+	padding: 15px;
+	background: #424242;
+}
+.row-right h2{
+	color: #fff;
+	line-height: 30px;
+	font-size: 26px;
+	font-weight: 400;
+}
+.row-right .business{
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+}
+.row-right .business a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+}
+.row-right span{
+	color: #fff;
+	font-size: 13px;
+	display: inline-block;
+	margin-top: 5px;
+}
+.row-right .what{
+	cursor: help;
+	border-bottom: 1px dotted #999999;
+}
+.row-right h5{
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+}
+.row-right p{
+	color: #fff;
+	font-size: 13px;
+}
+#content h4{
+	font-weight: bold;
+	height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #7c7c7c;
+    margin-bottom: 5px;
+}
+#content h4 .glyphicon{
+	width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+#content .widget-body{
+	padding: 15px;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	margin-bottom: 15px;
+}
+#content .widget-body p{
+	font-size: 13px;
+    color: #7c7c7c;
+}
+#content .widget-body a{
+	color: #e5412d;
+	text-decoration: underline;
+}

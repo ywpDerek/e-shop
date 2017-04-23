@@ -1,0 +1,233 @@
+/*heading-btns开始*/
+#heading-btns{
+	padding-top: 103px;
+	margin-bottom: 15px;
+}
+#heading-btns h3{
+	color: #7c7c7c;
+	line-height: 30px;
+	font-size: 24px;
+}
+#heading-btns .buttons{
+	float: right;
+	width: 315px;
+}
+#heading-btns .buttons span{
+	font-size: 13px;
+    color: #7c7c7c;
+}
+#heading-btns .buttons .action{
+	width: 198px;
+	height: 20px;
+	background: #e8e8e8;
+	padding: 2px 10px;
+	float: right;
+	position: relative;
+}
+.buttons .with{
+	font-size: 13px;
+	font-weight: bold;
+}
+#heading-btns .buttons .action span{
+	color: #333333;
+	font-weight: bold;
+}
+.buttons .action-right{
+	border: 4px solid transparent;
+	border-top: 4px solid rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -2px;
+}
+.buttons .action-down{
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	display: none;
+}
+.buttons .action-down li{
+	text-align: right;
+	padding: 3px 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.buttons .action-down li:hover{
+	color: #ffffff;
+	background: #0088cc;
+}
+/*heading-btns结束*/
+#content th{
+	padding: 8px;
+	color: #fff;
+}
+#content th input{
+	width: 36px;
+	height: 20px;
+}
+#content thead{
+	background: #e5412d;
+}
+#content td{
+	padding: 8px;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+#center{
+	text-align: center;
+	color: #7c7c7c;
+}
+.selectable:hover,.selecting{
+	background: #dbdbdb;
+}
+#content .selecting td{
+	border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.selectable .media img{
+	width: 80px;
+	height: 120px;
+	padding: 3px;
+	border: 1px solid #efefef;
+    background: #fff;
+}
+.selectable .media .media-body{
+	float: right;
+	width: 380px;
+	height: 78px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.selectable .media .media-body h5{
+	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.selectable .media .media-body span{
+	font-size: 12px;
+	line-height: 13px;
+	color: #e5412d;
+}
+.selectable .media .media-body .ol{
+	font-size: 12px;
+	color: #7c7c7c;
+	margin-right: 40px;
+}
+.selectable .media .media-body .laber{
+	display: inline-block;
+	padding: 2px 4px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #999999;
+    border-radius: 3px;
+}
+.selectable input{
+	padding: 4px 8px;
+	width: 36px;
+	height: 20px;
+	outline: none;
+	color: #A7A7A7;
+	border: 1px solid #dddddd;
+}
+.selectable .dollar{
+	text-align: center;
+	color: #7c7c7c;
+}
+#right-border{
+	border-right: 1px solid #dddddd;
+}
+#content .row-fluid{
+	overflow: hidden;
+}
+#content .row-left{
+	padding: 15px;
+	background: #f4f4f4;
+	margin: 0 0 15px;
+	text-align: center;
+	line-height: 20px;
+	width: 441px;
+	margin-top: 15px;
+	float: left;
+}
+#content .row-left p{
+	font-size: 13px;
+    color: #7c7c7c;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#content .row-left input{
+	padding: 4px 6px;
+	width: 427px;
+	height: 20px;
+	border: 1px solid #efefef;
+    color: #A7A7A7;
+    outline: none;
+    margin-bottom: 15px;
+}
+#content .row-left a{
+	width: 74px;
+	height: 20px;
+	background: #424242;
+    color: #fff;
+    padding: 4px 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+#content .row-right{
+	width: 473px;
+	float: right;
+	margin-top: 15px;
+}
+#content .row-right .vat{
+	width: 85px;
+	height: 20px;
+	padding: 4px 10px;
+	color: #7c7c7c;
+	font-size: 14px;
+	text-align: right;
+}
+#content .row-right .money{
+	font-size: 15px;
+	padding: 4px 10px;
+	font-weight: bold;
+	color: #7c7c7c;
+	text-align: right;
+	width: 104px;
+	height: 20px;
+}
+#content .row-right .row-two{
+	float: left;
+}
+#content .row-right .row-three{
+	float: right;
+	text-align: center;
+}
+.row-right .row-three p{
+	width: 209px;
+	height: 29px;
+	padding: 0 10px;
+	font-size: 15px;
+    color: #222;
+    line-height: 29px;
+    background: #e5e5e5;
+    margin-bottom: 15px;
+}
+.row-right .row-three a{
+	background: #e5412d;
+    color: #fff;
+    padding: 10px;
+    width: 210px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+}
+#content .row-three .glyphicon{
+	color: rgba(255, 255, 255, 0.4);
+	padding-right: 10px;
+}
