@@ -25,19 +25,20 @@
 </form>
 <script src="jquery-1.12.4.js"></script>
 <script>
+	var $comment = $('#comment');
 	$('.bigger').on('click',function(){
-		if($('#comment').height() < 500){
+		if($comment.height() < 500 && !$comment.is(':animated')){
 			// $('#comment').height($('#comment').height()+50);
-			$('#comment').animate({
+			//判断#comment这个元素是否正在执行动画,如果此时正在进行动画，将不能进入if判断语句
+			$comment.animate({
 				height:"+=50"
 			},400);
-			
 		}
 	})
 	$('.smaller').on('click',function(){
-		if($('#comment').height() > 200){
+		if($comment.height() > 200 && !$comment.is(':animated')){
 			// $('#comment').height($('#comment').height()-50);
-			$('#comment').animate({
+			$comment.animate({
 				height:"-=50"
 			},400);
 		}

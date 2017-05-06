@@ -3,32 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		* { margin:0; padding:0;font:normal 12px/17px Arial; }
+	.msg {width:300px; margin:100px; }
+	.msg_caption { width:100%; overflow:hidden; margin-bottom:1px;}
+	.msg_caption span { display:block; float:left; margin:0 2px; padding:4px 10px; background:#898989; cursor:pointer;color:white; }
+	.msg textarea{ width:300px; height:80px;height:100px;border:1px solid #000;}
+
+	</style>
 </head>
 <body>
-	<form method="post" action="">
-   你爱好的运动是？<input type="checkbox" id="CheckedAll" />全选/全不选<br/>
-    <input type="checkbox" name="items" value="足球"/>足球
-	<input type="checkbox" name="items" value="篮球"/>篮球
-	<input type="checkbox" name="items" value="羽毛球"/>羽毛球
-	<input type="checkbox" name="items" value="乒乓球"/>乒乓球<br/>
-	<input type="button" id="send" value="提　交"/> 
+<form action="" method="post">
+	<div class="msg">
+	<div class="msg_caption">
+		<span class="up" >向上</span>
+		<span class="down" >向下</span>
+	</div>
+	<div>
+		<textarea id="comment" rows="8" cols="20">多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.</textarea>
+	</div>
+</div>
 </form>
-<script src="jquery-1.12.4.js"></script>
-<script>
-	$('#CheckedAll').on('click',function(){
-		$('[name = items]:checkbox').prop('checked',this.checked);
-	})
-	$('[name = items]:checkbox').on('click',function(){
-		var $tmp = $('[name = items]:checkbox') ;
-		$('#CheckedAll').prop('checked',$tmp.length == $tmp.filter(':checked').length)	
-	})
-	$('#send').on('click',function(){
-		var str = "你选中的是：\r\n";
-		$('[name = items]:checkbox:checked').each(function(){
-			str+=$(this).val()+'\r\n';
-		})
-		alert(str);
-	})
-</script>
+	<script src="jquery-1.12.4.js"></script>
+	<script>
+	var $comment = $('#comment');
+		$('#down').on('click',function(){
+			$comment.animate({
+				scrollTop:"+=50"
+				//滚动框向下移动
+			});
+		});
+		$('#up').on('click',function(){
+			$comment.animate({
+				scrollTop:"-=50"
+			});
+		});
+	</script>
 </body>
 </html>
