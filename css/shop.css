@@ -16,7 +16,7 @@
 	width: 2880px;
 	position: absolute;
 	left: 0px; 
-	transition: left 2s ease;	
+/*	transition: left 2s ease;*/	
 }
 .carousel-btns{
 	margin-top: 225px;

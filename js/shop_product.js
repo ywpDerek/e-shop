@@ -69,6 +69,7 @@ for(var i=0; i<aDialogLi.length; i++){
 	aDialogLi[i].onclick = function(){
 		var oImg = this.getElementsByTagName('img')[0];
 		oDialogBox.style.display = 'block';
+		var oDialogImg = oDialogBody.getElementsByTagName('img')[0];
 		oDialogImg.src = oImg.src;
 
 		oContent.style.animation = 'show 1s ease forwards';
